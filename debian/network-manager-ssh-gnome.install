@@ -1,0 +1,5 @@
+usr/lib/*/NetworkManager/*.so*
+usr/lib/NetworkManager/nm-ssh-auth-dialog
+usr/share/gnome-vpn-properties
+usr/share/locale
+usr/share/appdata

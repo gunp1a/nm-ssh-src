@@ -1,0 +1,1 @@
+rm_conffile /etc/NetworkManager/VPN/nm-ssh-service.name 1.2.1-2~
