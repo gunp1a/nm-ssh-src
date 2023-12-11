@@ -1,0 +1,9 @@
+# List of source files containing translatable strings.
+# Please keep this file sorted alphabetically.
+appdata/network-manager-ssh.metainfo.xml.in
+nm-ssh.desktop.in
+auth-dialog/main.c
+properties/advanced-dialog.c
+properties/nm-ssh.c
+[type: gettext/glade]properties/nm-ssh-dialog.ui
+src/nm-ssh-service.c

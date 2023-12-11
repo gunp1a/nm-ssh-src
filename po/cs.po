@@ -1,0 +1,349 @@
+# Czech translation of network-manager-ssh.
+# Copyright (C) 2008, 2009, 2010 the author(s) of network-manager-ssh.
+# This file is distributed under the same license as the network-manager-ssh package.
+#
+# Jakub Friedl <jfriedl@suse.cz>, 2006.
+# Jiří Eischmann <jiri@eischmann.cz>, 2008.
+# Zdeněk Hataš <zdenek.hatas@gmail.com>, 2009, 2010, 2011.
+# Jiří Klimeš <jklimes@redhat.com>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: NetworkManager-ssh\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-05-27 12:28+0200\n"
+"PO-Revision-Date: 2014-05-27 12:41+0200\n"
+"Last-Translator: Jiří Klimeš <jklimes@redhat.com>\n"
+"Language-Team: Czech <gnome-cs-list@gnome.org>\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Poedit-Language: Czech\n"
+"X-Poedit-Country: CZECH REPUBLIC\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#. Otherwise, we have no saved password, or the password flags indicated
+#. * that the password should never be saved.
+#.
+#: ../auth-dialog/main.c:141
+#, c-format
+msgid "You need to authenticate to access the Virtual Private Network '%s'."
+msgstr "Pro přístup do VPN „%s“ se musíte autentizovat."
+
+#: ../auth-dialog/main.c:150 ../auth-dialog/main.c:170
+msgid "Authenticate VPN"
+msgstr "Ověření identity uživatele VPN"
+
+#: ../auth-dialog/main.c:152 ../properties/nm-ssh-dialog.ui.h:27
+msgid "Password:"
+msgstr "Heslo:"
+
+#: ../auth-dialog/main.c:298
+#, c-format
+msgid ""
+"Couldn't find '%s' environment variable.\n"
+"\n"
+"Is ssh-agent running?"
+msgstr ""
+"Nelze nalézt proměnnou prostředí „%s“.\n"
+"\n"
+"Je ssh-agent spuštěn?"
+
+#: ../auth-dialog/vpn-password-dialog.c:95
+msgid "_Password:"
+msgstr "_Heslo:"
+
+#: ../auth-dialog/vpn-password-dialog.c:97
+msgid "_Secondary Password:"
+msgstr "_Sekundární heslo:"
+
+#: ../auth-dialog/vpn-password-dialog.c:199
+msgid "_Cancel"
+msgstr "_Zrušit"
+
+#: ../auth-dialog/vpn-password-dialog.c:200
+msgid "_OK"
+msgstr "_OK"
+
+#: ../auth-dialog/vpn-password-dialog.c:240
+msgid "Sh_ow passwords"
+msgstr "Zo_brazit hesla"
+
+#: ../properties/advanced-dialog.c:137
+msgid ""
+"You have chosen not to use 'root' as the remote username.\n"
+"\n"
+"Please make sure the user you specify is allowed to open tun/tap devices on "
+"the remote host."
+msgstr ""
+"Rozhodli jste se nepoužít uživatele 'root' pro vzdálený počítač.\n"
+"\n"
+"Ujistěte se, že uživatel, kterého používáte má oprávnění otevírat tun/tap zařízení na"
+"vzdáleném počítači."
+
+#: ../properties/nm-ssh.c:49
+msgid "SSH"
+msgstr "SSH"
+
+#: ../properties/nm-ssh.c:50
+msgid "Compatible with the SSH server."
+msgstr "Kompatibilní s SSH serverem."
+
+#: ../properties/nm-ssh.c:457
+msgid "Saved"
+msgstr "Uložit"
+
+#: ../properties/nm-ssh.c:464
+msgid "Always Ask"
+msgstr "Vždy se ptát"
+
+#: ../properties/nm-ssh.c:620
+msgid "SSH Agent"
+msgstr "SSH Agent"
+
+#: ../properties/nm-ssh.c:633
+msgid "Password"
+msgstr "Heslo"
+
+#: ../properties/nm-ssh.c:646
+msgid "Key Authentication"
+msgstr "Klíč"
+
+#: ../properties/nm-ssh-dialog.ui.h:1
+msgid " "
+msgstr " "
+
+#: ../properties/nm-ssh-dialog.ui.h:2
+msgid "Not required"
+msgstr "Není vyžadováno"
+
+#: ../properties/nm-ssh-dialog.ui.h:3
+msgid "SSH Advanced Options"
+msgstr "Pokročilé volby SSH"
+
+#: ../properties/nm-ssh-dialog.ui.h:4
+msgid "Use custom gateway port:"
+msgstr "Použít vlastní port _brány:"
+
+#: ../properties/nm-ssh-dialog.ui.h:5
+msgid "Use custom tunnel Maximum Transmission Unit (MTU):"
+msgstr "Použít vlastní maximální velikost přenosové jednotky (_MTU):"
+
+#: ../properties/nm-ssh-dialog.ui.h:6
+msgid "Extra SSH options:"
+msgstr "_Dodatečné volby SSH:"
+
+#: ../properties/nm-ssh-dialog.ui.h:7
+msgid "Remote device number:"
+msgstr "Index vzdáleného _zařízení:"
+
+#: ../properties/nm-ssh-dialog.ui.h:8
+msgid "Use a TAP device"
+msgstr "Použít _TAP zařízení"
+
+#: ../properties/nm-ssh-dialog.ui.h:9
+msgid "Remote username:"
+msgstr "Vzdálené _uživatelské jméno:"
+
+#: ../properties/nm-ssh-dialog.ui.h:10
+msgid "Do not replace default route"
+msgstr "_Nenahrazovat implicitní cestu směrování"
+
+#: ../properties/nm-ssh-dialog.ui.h:11
+msgid "General"
+msgstr "Obecné"
+
+#: ../properties/nm-ssh-dialog.ui.h:12
+msgid "<b>General</b>"
+msgstr "<b>Obecné</b>"
+
+#: ../properties/nm-ssh-dialog.ui.h:13
+msgid "Gateway:"
+msgstr "_Brána:"
+
+#: ../properties/nm-ssh-dialog.ui.h:14
+msgid "<b>Network Settings</b>"
+msgstr "<b>Síťová nastavení</b>"
+
+#: ../properties/nm-ssh-dialog.ui.h:15
+msgid "Remote IP Address:"
+msgstr "Vzdálená adresa IP:"
+
+#: ../properties/nm-ssh-dialog.ui.h:16
+msgid "Local IP Address:"
+msgstr "Místní adresa IP:"
+
+#: ../properties/nm-ssh-dialog.ui.h:17
+msgid "Netmask:"
+msgstr "Síťová maska:"
+
+#: ../properties/nm-ssh-dialog.ui.h:18
+msgid "<b>IPv6 Network Settings</b>"
+msgstr "<b>Síťová nastavení pro IPv6</b>"
+
+#: ../properties/nm-ssh-dialog.ui.h:19
+msgid "Use IPv6"
+msgstr "Použít IPv6"
+
+#: ../properties/nm-ssh-dialog.ui.h:20
+msgid "Remote IP Address (IPv6):"
+msgstr "Vzdálená adresa IPv6:"
+
+#: ../properties/nm-ssh-dialog.ui.h:21
+msgid "Local IP Address (IPv6):"
+msgstr "Místní adresa IPv6:"
+
+#: ../properties/nm-ssh-dialog.ui.h:22
+msgid "Prefix (IPv6):"
+msgstr "Prefix (IPv6):"
+
+#: ../properties/nm-ssh-dialog.ui.h:23
+msgid "Advanced..."
+msgstr "P_okročilé…"
+
+#: ../properties/nm-ssh-dialog.ui.h:24
+msgid "<b>Authentication</b>"
+msgstr "<b>Autentizace</b>"
+
+#: ../properties/nm-ssh-dialog.ui.h:25
+msgid "Type:"
+msgstr "Typ:"
+
+#: ../properties/nm-ssh-dialog.ui.h:26
+msgid "Select an authentication mode."
+msgstr "Zvolte mód autentizace."
+
+#: ../properties/nm-ssh-dialog.ui.h:28
+msgid "Show Passwords"
+msgstr "Zobrazit hesla"
+
+#: ../properties/nm-ssh-dialog.ui.h:29
+msgid "SSH Key File:"
+msgstr "Soubor klíče:"
+
+#: ../src/nm-ssh-service.c:195
+#, c-format
+msgid "invalid address '%s'"
+msgstr "neplatná adresa „%s“"
+
+#: ../src/nm-ssh-service.c:207
+#, c-format
+msgid "invalid integer property '%s' or out of range [%d -> %d]"
+msgstr "celočíselná volba „%s“ není platná nebo je mimo rozsah [%d -> %d]"
+
+#: ../src/nm-ssh-service.c:217
+#, c-format
+msgid "invalid boolean property '%s' (not yes or no)"
+msgstr "pravdivostní volba „%s“ není platná (není ano či ne)"
+
+#: ../src/nm-ssh-service.c:224
+#, c-format
+msgid "unhandled property '%s' type %s"
+msgstr "neošetřená volba „%s“ typu %s"
+
+#: ../src/nm-ssh-service.c:235
+#, c-format
+msgid "property '%s' invalid or not supported"
+msgstr "volba „%s“ není platná nebo podporovaná"
+
+#: ../src/nm-ssh-service.c:252
+msgid "No VPN configuration options."
+msgstr "Žádné volby nastavení VPN."
+
+#: ../src/nm-ssh-service.c:1012
+msgid "Could not find the ssh binary."
+msgstr "Nelze nalézt program ssh."
+
+#: ../src/nm-ssh-service.c:1037
+msgid "Could not find the sshpass binary."
+msgstr "Nelze nalézt program sshpass."
+
+#: ../src/nm-ssh-service.c:1054
+msgid "Failed creating pipe."
+msgstr "Nelze vytvořit rouru."
+
+#: ../src/nm-ssh-service.c:1068
+msgid "No password specified."
+msgstr "Heslo nebylo zadáno."
+
+#: ../src/nm-ssh-service.c:1102
+msgid "Key authentication selected, but no key file specified."
+msgstr "Vybrána autentizace klíčem, ale nebyl zadán žádný soubor klíče."
+
+#: ../src/nm-ssh-service.c:1122
+msgid "Missing required SSH_AUTH_SOCK."
+msgstr "Chybějící SSH_AUTH_SOCK, který je vyžadován."
+
+#: ../src/nm-ssh-service.c:1136 ../src/nm-ssh-service.c:1615
+#, c-format
+msgid "Unknown authentication type: %s."
+msgstr "Neznámý typ autentizace „%s“."
+
+#: ../src/nm-ssh-service.c:1206
+#, c-format
+msgid "Please set remote address."
+msgstr "Zadejte prosím vzdálenou adresu."
+
+#: ../src/nm-ssh-service.c:1222
+#, c-format
+msgid "Invalid port number '%s'."
+msgstr "Neplatné číslo portu „%s“."
+
+#: ../src/nm-ssh-service.c:1241
+#, c-format
+msgid "Invalid TUN MTU size '%s'."
+msgstr "Neplatná velikost TUN MTU „%s“."
+
+#: ../src/nm-ssh-service.c:1260
+#, c-format
+msgid "Invalid TUN/TAP device number '%s'."
+msgstr "Neplatný index zařízení TUN/TAP"
+
+#: ../src/nm-ssh-service.c:1279
+msgid "Missing required remote IP address."
+msgstr "Chybí požadovaná vzdálená adresa IP."
+
+#: ../src/nm-ssh-service.c:1293
+msgid "Missing required local IP address."
+msgstr "Chybí požadovaná místní adresa IP."
+
+#: ../src/nm-ssh-service.c:1309
+msgid "Missing required netmask."
+msgstr "Chybí požadovaná maska sítě."
+
+#: ../src/nm-ssh-service.c:1329
+msgid "Missing required IPv6 remote IP address."
+msgstr "Chybí požadovaná vzdálená adresa IPv6."
+
+#: ../src/nm-ssh-service.c:1343
+msgid "Missing required IPv6 local IP address."
+msgstr "Chybí požadovaná místní adresa IPv6."
+
+#: ../src/nm-ssh-service.c:1357
+msgid "Missing required IPv6 netmask."
+msgstr "Chybí požadovaná maska sítě."
+
+#: ../src/nm-ssh-service.c:1451
+msgid "Could not pass password to sshpass."
+msgstr "Nelze předat heslo do programu sshpass."
+
+#: ../src/nm-ssh-service.c:1535 ../src/nm-ssh-service.c:1577
+msgid ""
+"Could not process the request because the VPN connection settings were "
+"invalid."
+msgstr "Nelze zpracovat požadavek, protože nastavení VPN nejsou platná."
+
+#: ../src/nm-ssh-service.c:1739
+msgid "Don't quit when VPN connection terminates"
+msgstr "Neukončovat při uzavření spojení VPN"
+
+#: ../src/nm-ssh-service.c:1740
+msgid "Enable verbose debug logging (may expose passwords)"
+msgstr "Povolit podrobný ladicí výpis (může prozradit hesla)"
+
+#: ../src/nm-ssh-service.c:1763
+msgid "nm-ssh-service provides integrated SSH capability to NetworkManager."
+msgstr "nm-ssh-service umožňuje NetworkManageru poskytovat služby pro připojování k SSH."
+

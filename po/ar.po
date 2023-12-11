@@ -1,0 +1,658 @@
+# translation of NetworkManager-ssh.HEAD.ar.po to Arabic
+# Arabic translations for PACKAGE package.
+# Copyright (C) 2006 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Automatically generated, 2006.
+# Khaled Hosny <khaledhosny@eglug.org>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: Project\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-07-15 17:00+1000\n"
+"PO-Revision-Date: 2007-12-26 09:06+0100\n"
+"Last-Translator: Djihed Afifi <djihed@gmail.com>\n"
+"Language-Team: Arabic <doc@arabeyes.org>\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: Plural-Forms: nplurals=4; plural=n==1 ? 0 : n==2 ? 1 : n>=3 && "
+"n<=10 ? 2 : 3\n"
+"X-Poedit-Language: Arabic\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#. Otherwise, we have no saved password, or the password flags indicated
+#. * that the password should never be saved.
+#.
+#: ../auth-dialog/main.c:141
+#, c-format
+msgid "You need to authenticate to access the Virtual Private Network '%s'."
+msgstr "تحتاج إلى التوثيق لتَنفُذ إلى الشبكة الخاصة التخيلية '%s'."
+
+#: ../auth-dialog/main.c:150 ../auth-dialog/main.c:170
+msgid "Authenticate VPN"
+msgstr "وثِّق VPN"
+
+#: ../auth-dialog/main.c:152 ../properties/nm-ssh-dialog.ui.h:27
+#, fuzzy
+msgid "Password:"
+msgstr "_كلمة السر:"
+
+#: ../auth-dialog/main.c:291
+#, c-format
+msgid ""
+"Couldn't find '%s' environment variable.\n"
+"\n"
+"Is ssh-agent running?"
+msgstr ""
+
+#: ../auth-dialog/vpn-password-dialog.c:95
+#, fuzzy
+msgid "_Password:"
+msgstr "_كلمة السر:"
+
+#: ../auth-dialog/vpn-password-dialog.c:97
+msgid "_Secondary Password:"
+msgstr "كلمة سر _ثانوية:"
+
+#: ../auth-dialog/vpn-password-dialog.c:240
+#, fuzzy
+msgid "Sh_ow passwords"
+msgstr "كلمة السّر"
+
+#: ../properties/advanced-dialog.c:137
+msgid ""
+"You have chosen not to use 'root' as the remote username.\n"
+"\n"
+"Please make sure the user you specify is allowed to open tun/tap devices on "
+"the remote host."
+msgstr ""
+
+#: ../properties/nm-ssh.c:49
+#, fuzzy
+msgid "SSH"
+msgstr "عميل SSH"
+
+#: ../properties/nm-ssh.c:50
+msgid "Compatible with the SSH server."
+msgstr ""
+
+#: ../properties/nm-ssh.c:457
+msgid "Saved"
+msgstr ""
+
+#: ../properties/nm-ssh.c:464
+msgid "Always Ask"
+msgstr ""
+
+#: ../properties/nm-ssh.c:620
+msgid "SSH Agent"
+msgstr ""
+
+#: ../properties/nm-ssh.c:633
+msgid "Password"
+msgstr "كلمة السّر"
+
+#: ../properties/nm-ssh.c:646
+#, fuzzy
+msgid "Key Authentication"
+msgstr "<b>اسم الإتصال</b>"
+
+#: ../properties/nm-ssh-dialog.ui.h:1
+msgid " "
+msgstr ""
+
+#: ../properties/nm-ssh-dialog.ui.h:2
+msgid "Not required"
+msgstr ""
+
+#: ../properties/nm-ssh-dialog.ui.h:3
+msgid "SSH Advanced Options"
+msgstr "خيارات SSH متقدمة"
+
+#: ../properties/nm-ssh-dialog.ui.h:4
+#, fuzzy
+msgid "Use custom gateway port:"
+msgstr "منفذ ال_بوّابة:"
+
+#: ../properties/nm-ssh-dialog.ui.h:5
+msgid "Use custom tunnel Maximum Transmission Unit (MTU):"
+msgstr ""
+
+#: ../properties/nm-ssh-dialog.ui.h:6
+msgid "Extra SSH options:"
+msgstr ""
+
+#: ../properties/nm-ssh-dialog.ui.h:7
+msgid "Remote device number:"
+msgstr ""
+
+#: ../properties/nm-ssh-dialog.ui.h:8
+#, fuzzy
+msgid "Use a TAP device"
+msgstr "ا_ستخدم جهاز TAP"
+
+#: ../properties/nm-ssh-dialog.ui.h:9
+#, fuzzy
+msgid "Remote username:"
+msgstr "اسم المستخدم:"
+
+#: ../properties/nm-ssh-dialog.ui.h:10
+msgid "Do not replace default route"
+msgstr ""
+
+#: ../properties/nm-ssh-dialog.ui.h:11
+msgid "General"
+msgstr ""
+
+#: ../properties/nm-ssh-dialog.ui.h:12
+#, fuzzy
+msgid "<b>General</b>"
+msgstr "<b>مطلوب</b>"
+
+#: ../properties/nm-ssh-dialog.ui.h:13
+#, fuzzy
+msgid "Gateway:"
+msgstr "منفذ ال_بوّابة:"
+
+#: ../properties/nm-ssh-dialog.ui.h:14
+msgid "<b>Network Settings</b>"
+msgstr ""
+
+#: ../properties/nm-ssh-dialog.ui.h:15
+#, fuzzy
+msgid "Remote IP Address:"
+msgstr "IP الآخر:"
+
+#: ../properties/nm-ssh-dialog.ui.h:16
+#, fuzzy
+msgid "Local IP Address:"
+msgstr "IP م_حلّي:  %s"
+
+#: ../properties/nm-ssh-dialog.ui.h:17
+msgid "Netmask:"
+msgstr ""
+
+#: ../properties/nm-ssh-dialog.ui.h:18
+msgid "<b>IPv6 Network Settings</b>"
+msgstr ""
+
+#: ../properties/nm-ssh-dialog.ui.h:19
+msgid "Use IPv6"
+msgstr ""
+
+#: ../properties/nm-ssh-dialog.ui.h:20
+msgid "Remote IP Address (IPv6):"
+msgstr ""
+
+#: ../properties/nm-ssh-dialog.ui.h:21
+msgid "Local IP Address (IPv6):"
+msgstr ""
+
+#: ../properties/nm-ssh-dialog.ui.h:22
+msgid "Prefix (IPv6):"
+msgstr ""
+
+#: ../properties/nm-ssh-dialog.ui.h:23
+#, fuzzy
+msgid "Advanced..."
+msgstr "مت_قدم"
+
+#: ../properties/nm-ssh-dialog.ui.h:24
+#, fuzzy
+msgid "<b>Authentication</b>"
+msgstr "<b>اسم الإتصال</b>"
+
+#: ../properties/nm-ssh-dialog.ui.h:25
+msgid "Type:"
+msgstr ""
+
+#: ../properties/nm-ssh-dialog.ui.h:26
+msgid "Select an authentication mode."
+msgstr ""
+
+#: ../properties/nm-ssh-dialog.ui.h:28
+#, fuzzy
+msgid "Show Passwords"
+msgstr "كلمة السّر"
+
+#: ../properties/nm-ssh-dialog.ui.h:29
+msgid "SSH Key File:"
+msgstr ""
+
+#: ../src/nm-ssh-service.c:195
+#, c-format
+msgid "invalid address '%s'"
+msgstr ""
+
+#: ../src/nm-ssh-service.c:207
+#, c-format
+msgid "invalid integer property '%s' or out of range [%d -> %d]"
+msgstr ""
+
+#: ../src/nm-ssh-service.c:217
+#, c-format
+msgid "invalid boolean property '%s' (not yes or no)"
+msgstr ""
+
+#: ../src/nm-ssh-service.c:224
+#, c-format
+msgid "unhandled property '%s' type %s"
+msgstr ""
+
+#: ../src/nm-ssh-service.c:235
+#, c-format
+msgid "property '%s' invalid or not supported"
+msgstr ""
+
+#: ../src/nm-ssh-service.c:252
+msgid "No VPN configuration options."
+msgstr ""
+
+#: ../src/nm-ssh-service.c:1010
+msgid "Could not find the ssh binary."
+msgstr ""
+
+#: ../src/nm-ssh-service.c:1035
+msgid "Could not find the sshpass binary."
+msgstr ""
+
+#: ../src/nm-ssh-service.c:1053
+msgid "No password specified."
+msgstr ""
+
+#: ../src/nm-ssh-service.c:1090
+msgid "Key authentication selected, but no key file specified."
+msgstr ""
+
+#: ../src/nm-ssh-service.c:1110
+msgid "Missing required SSH_AUTH_SOCK."
+msgstr ""
+
+#: ../src/nm-ssh-service.c:1124 ../src/nm-ssh-service.c:1584
+#, c-format
+msgid "Unknown authentication type: %s."
+msgstr ""
+
+#: ../src/nm-ssh-service.c:1194
+#, c-format
+msgid "Please set remote address."
+msgstr ""
+
+#: ../src/nm-ssh-service.c:1210
+#, c-format
+msgid "Invalid port number '%s'."
+msgstr ""
+
+#: ../src/nm-ssh-service.c:1229
+#, c-format
+msgid "Invalid TUN MTU size '%s'."
+msgstr ""
+
+#: ../src/nm-ssh-service.c:1248
+#, c-format
+msgid "Invalid TUN/TAP device number '%s'."
+msgstr ""
+
+#: ../src/nm-ssh-service.c:1267
+msgid "Missing required remote IP address."
+msgstr ""
+
+#: ../src/nm-ssh-service.c:1281
+msgid "Missing required local IP address."
+msgstr ""
+
+#: ../src/nm-ssh-service.c:1297
+msgid "Missing required netmask."
+msgstr ""
+
+#: ../src/nm-ssh-service.c:1317
+msgid "Missing required IPv6 remote IP address."
+msgstr ""
+
+#: ../src/nm-ssh-service.c:1331
+msgid "Missing required IPv6 local IP address."
+msgstr ""
+
+#: ../src/nm-ssh-service.c:1345
+msgid "Missing required IPv6 netmask."
+msgstr ""
+
+#: ../src/nm-ssh-service.c:1504 ../src/nm-ssh-service.c:1546
+#, fuzzy
+msgid ""
+"Could not process the request because the VPN connection settings were "
+"invalid."
+msgstr "فشل ولوج VPN لأن خيارات اعدادات VPN غير صالحة."
+
+#: ../src/nm-ssh-service.c:1708
+msgid "Don't quit when VPN connection terminates"
+msgstr ""
+
+#: ../src/nm-ssh-service.c:1709
+msgid "Enable verbose debug logging (may expose passwords)"
+msgstr ""
+
+#: ../src/nm-ssh-service.c:1725
+msgid "nm-ssh-service provides integrated SSH capability to NetworkManager."
+msgstr ""
+
+#~ msgid "_Username:"
+#~ msgstr "ا_سم المستخدم:"
+
+#~ msgid "_Domain:"
+#~ msgstr "ال_نطاق:"
+
+#~ msgid "Connect _anonymously"
+#~ msgstr "اتّصل كم_جهول"
+
+#~ msgid "Connect as _user:"
+#~ msgstr "اتصل _كمستخدم:"
+
+#~ msgid "_Remember password for this session"
+#~ msgstr "_تذكّر كلمة السر لهذه الجلسة"
+
+#~ msgid "_Save password in keyring"
+#~ msgstr "ا_حفظ كلمة السر في حلقة المفاتيح"
+
+#~ msgid "Certificate pass_word:"
+#~ msgstr "كلمة سر ال_شهادة:"
+
+#~ msgid "Certificate password:"
+#~ msgstr "كلمة سر الشهادة:"
+
+#, fuzzy
+#~ msgid "None"
+#~ msgstr "لا"
+
+#, fuzzy
+#~ msgid "Default"
+#~ msgstr "(افتراضي: 1194)"
+
+#, fuzzy
+#~ msgid "Certificates (TLS)"
+#~ msgstr "ش_هادة:"
+
+#, fuzzy
+#~ msgid "CA Certificate:"
+#~ msgstr "ش_هادة:"
+
+#, fuzzy
+#~ msgid "Cipher:"
+#~ msgstr "شيفرة:  %s"
+
+#, fuzzy
+#~ msgid "Key Direction:"
+#~ msgstr "الإتجاه:"
+
+#, fuzzy
+#~ msgid "Private Key:"
+#~ msgstr "مفتاح مشترَك:"
+
+#, fuzzy
+#~ msgid "Static Key:"
+#~ msgstr "مفتاح مشترَك:"
+
+#, fuzzy
+#~ msgid "Use L_ZO data compression"
+#~ msgstr "استعمل _ضغط LZO"
+
+#, fuzzy
+#~ msgid "Use a _TCP connection"
+#~ msgstr "استخدم ات_صال TCP"
+
+#, fuzzy
+#~ msgid "User Certificate:"
+#~ msgstr "ش_هادة:"
+
+#, fuzzy
+#~ msgid "User name:"
+#~ msgstr "ا_سم المستخدم:"
+
+#~ msgid "The following SSH connection will be created:"
+#~ msgstr "ستُنشأ اتصالات SSH التالية:"
+
+#~ msgid "Name:  %s"
+#~ msgstr "الإسم: %s"
+
+#~ msgid "Connection Type: X.509 Certificates"
+#~ msgstr "نوع الإتصال: X.509 Certificates"
+
+#~ msgid "CA:  %s"
+#~ msgstr "CA:  %s"
+
+#~ msgid "Cert:  %s"
+#~ msgstr "شهادة:  %s"
+
+#~ msgid "Key:  %s"
+#~ msgstr "مفتاح: %s"
+
+#~ msgid "Connection Type: Shared Key"
+#~ msgstr "نوع الإتصال: مفتاح مشترَك"
+
+#~ msgid "Shared Key:  %s"
+#~ msgstr "مفتاح مشترَك: %s"
+
+#~ msgid "Remote IP:  %s"
+#~ msgstr "IP بعيد:  %s"
+
+#~ msgid "Connection Type: Password"
+#~ msgstr "نوع الإتصال: كلمة سّر"
+
+#~ msgid "Username:  %s"
+#~ msgstr "اسم المستخدم:  %s"
+
+#~ msgid "Connection Type: X.509 with Password Authentication"
+#~ msgstr "نوع الإتصال: X.509 مع توثق عبر كلمة سر"
+
+#~ msgid "Remote:  %s"
+#~ msgstr "عن بعد:  %s"
+
+#~ msgid "Port:  %s"
+#~ msgstr "ميناء:  %s"
+
+#~ msgid "Device: %s"
+#~ msgstr "الجهاز: %s"
+
+#~ msgid "TAP"
+#~ msgstr "TAP"
+
+#~ msgid "TUN"
+#~ msgstr "TUN"
+
+#~ msgid "Protocol: %s"
+#~ msgstr "البروتوكول: %s"
+
+#~ msgid "TCP"
+#~ msgstr "TCP"
+
+#~ msgid "UDP"
+#~ msgstr "UDP"
+
+#~ msgid "Routes:  %s"
+#~ msgstr "المسارات:  %s"
+
+#~ msgid "Use LZO Compression: %s"
+#~ msgstr "ا_ستعمل ضغط LZO: %s"
+
+#~ msgid "Yes"
+#~ msgstr "نعم"
+
+#~ msgid "TLS auth:  %s %s"
+#~ msgstr "توثيق TLS:  %s %s "
+
+#~ msgid "The connection details can be changed using the \"Edit\" button."
+#~ msgstr "يمكن تغيير تفاصيل الإتصال باستخدام زر \"حرِّر\"."
+
+#~ msgid "Cannot import settings"
+#~ msgstr "تعذّر استيراد الإعدادات"
+
+#~ msgid "The VPN settings file '%s' does not contain valid data."
+#~ msgstr "لا يحتوي ملف اعدادات VPN '%s' على بيانات صالحة."
+
+#~ msgid "Select file to import"
+#~ msgstr "انتقِ ملفّ للإستيراد"
+
+#~ msgid "Select CA to use"
+#~ msgstr "انتقِ CA ليُستخدم"
+
+#~ msgid "Select certificate to use"
+#~ msgstr "انتقِ شهادة لتُستخدم"
+
+#~ msgid "Select key to use"
+#~ msgstr "انتقِ مفتاحا ليُستخدم"
+
+#~ msgid "Select shared key to use"
+#~ msgstr "انتقِ مفتاحا مُشارَكا ليُستخدم"
+
+#~ msgid "Select TA to use"
+#~ msgstr "انتقِ TA ليُستخدم"
+
+#~ msgid "Save as..."
+#~ msgstr "احفظ كـ..."
+
+#~ msgid "A file named \"%s\" already exists."
+#~ msgstr "يوجد ملف بالإسم \"%s\" مسبقاً."
+
+#~ msgid "Do you want to replace it with the one you are saving?"
+#~ msgstr "أتريد استبداله بالملف الذي تقوم بحفظه؟"
+
+#~ msgid "Failed to export configuration"
+#~ msgstr "فشل تصدير الإعدادات"
+
+#~ msgid "Failed to save file %s"
+#~ msgstr "فشل حفظ الملف %s"
+
+#~ msgid "65536"
+#~ msgstr "65536"
+
+#~ msgid "<i>example: 172.16.0.0/16 10.11.12.0/24</i>"
+#~ msgstr "<i>مثال: 172.16.0.0/16 10.11.12.0/24</i>"
+
+#~ msgid "C_A file:"
+#~ msgstr "_ملفّ CA:"
+
+#~ msgid "Co_nnection type:"
+#~ msgstr "_نوع الإتصال:"
+
+#~ msgid "Connection na_me:"
+#~ msgstr "ا_سم الإتصال:"
+
+#~ msgid "Import _Saved Configuration..."
+#~ msgstr "ا_ستورد اعدادات محفوظة..."
+
+#~ msgid ""
+#~ "Name used to identify the connection to the private network, e.g. "
+#~ "\"Campus VPN\" or \"Corporate Network\""
+#~ msgstr ""
+#~ "الإ_سم المستخدم لتعريف الإتصال للشبكة الخاصة، مثلا: \"Campus VPN\" أو "
+#~ "\"Corporate Network\""
+
+#~ msgid "Network"
+#~ msgstr "شبكة"
+
+#~ msgid "Only use _VPN connection for these addresses:"
+#~ msgstr "استخدم _فقط اتصالات VPN لهذه العناوين:"
+
+#~ msgid "SSH Configuration"
+#~ msgstr "اعدادات SSH"
+
+#~ msgid ""
+#~ "Please enter the information provided by your system administrator below. "
+#~ "Do not enter your password here as you will be prompted when connecting."
+#~ msgstr ""
+#~ "من فضلك أدخل المعلومات التي وفرها مدير نظامك بأسفل. لا تدخل كلمة السر هنا "
+#~ "حيث أنك ستسأل عنها عند الإتصال."
+
+#~ msgid ""
+#~ "Please note that the file you import is not an SSH configuration file. "
+#~ "Ask your administrator for the file."
+#~ msgstr ""
+#~ "من فضلك لا حظ أن الملف الذي استوردته ليس ملف إعدادات SSH. اسأل مدير نظامك "
+#~ "عن الملف."
+
+#~ msgid "Shared _key:"
+#~ msgstr "مف_تاح مشترَك:"
+
+#~ msgid "TLS-Auth"
+#~ msgstr "TLS-Auth"
+
+#~ msgid "Use _TLS auth:"
+#~ msgstr "اس_تخدم توثيق TLS:"
+
+#~ msgid "Use cip_her:"
+#~ msgstr "استخدم _شيفرة:"
+
+#~ msgid ""
+#~ "X.509 Certificates\n"
+#~ "Pre-shared key\n"
+#~ "Password Authentication\n"
+#~ "X.509 with Password Authentication"
+#~ msgstr ""
+#~ "شهادات X.509\n"
+#~ "مفتاح قبل المُشاركة\n"
+#~ "توثيق بكلمة سر\n"
+#~ "X.509 مع توثيق بكلمة سر"
+
+#~ msgid "_0"
+#~ msgstr "_0"
+
+#~ msgid "_1"
+#~ msgstr "_1"
+
+#~ msgid "_Gateway address:"
+#~ msgstr "عنوان ال_بوّابة:"
+
+#~ msgid "_Key:"
+#~ msgstr "م_فتاح:"
+
+#~ msgid "_Local IP:"
+#~ msgstr "IP م_حلًي:"
+
+#~ msgid "_none"
+#~ msgstr "لا _شيء"
+
+#~ msgid "Add, Remove, and Edit VPN Connections"
+#~ msgstr "أضِف، احذِف، و حرِّر اتصالات VPN"
+
+#~ msgid "VPN Connection Manager (SSH)"
+#~ msgstr "مدير اتصالت VPN (SSH)"
+
+#~ msgid ""
+#~ "The VPN login failed because the user name and password were not accepted "
+#~ "or the certificate password was wrong."
+#~ msgstr ""
+#~ "فشل ولوج VPN لأن اسم المستخدم أو كلمة السر لم تُقبل أو أن كلمة سر الشهادة "
+#~ "كانت خطأ."
+
+#~ msgid "The VPN login failed because the VPN program could not be started."
+#~ msgstr "فشل ولوج VPN لأن برنامج VPN لا يمكن بدأه."
+
+#~ msgid ""
+#~ "The VPN login failed because the VPN program could not connect to the VPN "
+#~ "server."
+#~ msgstr "فشل ولوج VPN لأن برنامج VPN لا يمكنه الإتصال بخادم VPN."
+
+#~ msgid ""
+#~ "The VPN login failed because the VPN program received an invalid "
+#~ "configuration from the VPN server."
+#~ msgstr "فشل ولوج VPN لأن برنامج VPN لم يتلقى اعدادات صالحة من خادم VPN."
+
+#~ msgid "VPN connection failed"
+#~ msgstr "فشل اتصال VPN"
+
+#~ msgid "<b>Connection Information</b>"
+#~ msgstr "<b>معلومات الإتصال</b>"
+
+#~ msgid "X.509"
+#~ msgstr "X.509"
+
+#~ msgid "X.509/Pass"
+#~ msgstr "X.509/Pass"
+
+#~ msgid "CA  file:"
+#~ msgstr "ملفّ  CA:"
+
+#~ msgid "Optional"
+#~ msgstr "خياري"

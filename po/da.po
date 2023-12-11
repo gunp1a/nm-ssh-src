@@ -1,0 +1,450 @@
+# Danish translation of NetworkManager-ssh
+# Copyright (C) 2005-2009
+# This file is distributed under the same license as the NetworkManager-ssh package.
+# David Zeuthen <davidz@redhat.com>, 2005.
+# Lasse Bang Mikkelsen <lbm@fatalerror.dk>, 2006, 07.
+# Mads Bille Lundby <lundbymads@gmail.com>, 2009.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: NetworkManager-ssh\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-07-15 17:00+1000\n"
+"PO-Revision-Date: 2009-02-24 19:08+0100\n"
+"Last-Translator: Mads Lundby <lundbymads@gmail.com>\n"
+"Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
+"Language: da\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-Language: Danish\n"
+"X-Poedit-Country: DENMARK\n"
+
+#. Otherwise, we have no saved password, or the password flags indicated
+#. * that the password should never be saved.
+#.
+#: ../auth-dialog/main.c:141
+#, c-format
+msgid "You need to authenticate to access the Virtual Private Network '%s'."
+msgstr ""
+"Du skal opnå godkendelse for at tilgå det virtuelle private netværk \"%s\"."
+
+#: ../auth-dialog/main.c:150 ../auth-dialog/main.c:170
+msgid "Authenticate VPN"
+msgstr "VPN-godkendelse"
+
+#: ../auth-dialog/main.c:152 ../properties/nm-ssh-dialog.ui.h:27
+msgid "Password:"
+msgstr "Adgangskode:"
+
+#: ../auth-dialog/main.c:291
+#, c-format
+msgid ""
+"Couldn't find '%s' environment variable.\n"
+"\n"
+"Is ssh-agent running?"
+msgstr ""
+
+#: ../auth-dialog/vpn-password-dialog.c:95
+msgid "_Password:"
+msgstr "_Adgangskode:"
+
+#: ../auth-dialog/vpn-password-dialog.c:97
+msgid "_Secondary Password:"
+msgstr "_Sekundær adgangskode:"
+
+#: ../auth-dialog/vpn-password-dialog.c:240
+#, fuzzy
+msgid "Sh_ow passwords"
+msgstr "Vis adgangskoder"
+
+#: ../properties/advanced-dialog.c:137
+msgid ""
+"You have chosen not to use 'root' as the remote username.\n"
+"\n"
+"Please make sure the user you specify is allowed to open tun/tap devices on "
+"the remote host."
+msgstr ""
+
+#: ../properties/nm-ssh.c:49
+msgid "SSH"
+msgstr "SSH"
+
+#: ../properties/nm-ssh.c:50
+msgid "Compatible with the SSH server."
+msgstr "Kompatibel med SSH-serveren."
+
+#: ../properties/nm-ssh.c:457
+msgid "Saved"
+msgstr ""
+
+#: ../properties/nm-ssh.c:464
+msgid "Always Ask"
+msgstr ""
+
+#: ../properties/nm-ssh.c:620
+msgid "SSH Agent"
+msgstr ""
+
+#: ../properties/nm-ssh.c:633
+msgid "Password"
+msgstr "Adgangskode"
+
+#: ../properties/nm-ssh.c:646
+#, fuzzy
+msgid "Key Authentication"
+msgstr "TLS-godkendelse"
+
+#: ../properties/nm-ssh-dialog.ui.h:1
+msgid " "
+msgstr " "
+
+#: ../properties/nm-ssh-dialog.ui.h:2
+msgid "Not required"
+msgstr ""
+
+#: ../properties/nm-ssh-dialog.ui.h:3
+msgid "SSH Advanced Options"
+msgstr "Avancerede indstillinger til SSH"
+
+#: ../properties/nm-ssh-dialog.ui.h:4
+#, fuzzy
+msgid "Use custom gateway port:"
+msgstr "Anvend tilpasset p_ort til adgangspunkt:"
+
+#: ../properties/nm-ssh-dialog.ui.h:5
+msgid "Use custom tunnel Maximum Transmission Unit (MTU):"
+msgstr ""
+
+#: ../properties/nm-ssh-dialog.ui.h:6
+msgid "Extra SSH options:"
+msgstr ""
+
+#: ../properties/nm-ssh-dialog.ui.h:7
+msgid "Remote device number:"
+msgstr ""
+
+#: ../properties/nm-ssh-dialog.ui.h:8
+#, fuzzy
+msgid "Use a TAP device"
+msgstr "Anvend en TA_P-enhed"
+
+#: ../properties/nm-ssh-dialog.ui.h:9
+#, fuzzy
+msgid "Remote username:"
+msgstr "_Brugernavn:"
+
+#: ../properties/nm-ssh-dialog.ui.h:10
+msgid "Do not replace default route"
+msgstr ""
+
+#: ../properties/nm-ssh-dialog.ui.h:11
+msgid "General"
+msgstr "Generelt"
+
+#: ../properties/nm-ssh-dialog.ui.h:12
+msgid "<b>General</b>"
+msgstr "<b>Generelt</b>"
+
+#: ../properties/nm-ssh-dialog.ui.h:13
+#, fuzzy
+msgid "Gateway:"
+msgstr "Ad_gangspunkt:"
+
+#: ../properties/nm-ssh-dialog.ui.h:14
+msgid "<b>Network Settings</b>"
+msgstr ""
+
+#: ../properties/nm-ssh-dialog.ui.h:15
+#, fuzzy
+msgid "Remote IP Address:"
+msgstr "Lokal IP-adresse:"
+
+#: ../properties/nm-ssh-dialog.ui.h:16
+msgid "Local IP Address:"
+msgstr "Lokal IP-adresse:"
+
+#: ../properties/nm-ssh-dialog.ui.h:17
+msgid "Netmask:"
+msgstr ""
+
+#: ../properties/nm-ssh-dialog.ui.h:18
+msgid "<b>IPv6 Network Settings</b>"
+msgstr ""
+
+#: ../properties/nm-ssh-dialog.ui.h:19
+msgid "Use IPv6"
+msgstr ""
+
+#: ../properties/nm-ssh-dialog.ui.h:20
+#, fuzzy
+msgid "Remote IP Address (IPv6):"
+msgstr "Lokal IP-adresse:"
+
+#: ../properties/nm-ssh-dialog.ui.h:21
+#, fuzzy
+msgid "Local IP Address (IPv6):"
+msgstr "Lokal IP-adresse:"
+
+#: ../properties/nm-ssh-dialog.ui.h:22
+msgid "Prefix (IPv6):"
+msgstr ""
+
+#: ../properties/nm-ssh-dialog.ui.h:23
+#, fuzzy
+msgid "Advanced..."
+msgstr "A_vanceret..."
+
+#: ../properties/nm-ssh-dialog.ui.h:24
+msgid "<b>Authentication</b>"
+msgstr "<b>Godkendelse</b>"
+
+#: ../properties/nm-ssh-dialog.ui.h:25
+msgid "Type:"
+msgstr "Type:"
+
+#: ../properties/nm-ssh-dialog.ui.h:26
+#, fuzzy
+msgid "Select an authentication mode."
+msgstr "TLS-godkendelse"
+
+#: ../properties/nm-ssh-dialog.ui.h:28
+#, fuzzy
+msgid "Show Passwords"
+msgstr "Vis adgangskoder"
+
+#: ../properties/nm-ssh-dialog.ui.h:29
+#, fuzzy
+msgid "SSH Key File:"
+msgstr "Nøglefil:"
+
+#: ../src/nm-ssh-service.c:195
+#, c-format
+msgid "invalid address '%s'"
+msgstr ""
+
+#: ../src/nm-ssh-service.c:207
+#, c-format
+msgid "invalid integer property '%s' or out of range [%d -> %d]"
+msgstr ""
+
+#: ../src/nm-ssh-service.c:217
+#, c-format
+msgid "invalid boolean property '%s' (not yes or no)"
+msgstr ""
+
+#: ../src/nm-ssh-service.c:224
+#, c-format
+msgid "unhandled property '%s' type %s"
+msgstr ""
+
+#: ../src/nm-ssh-service.c:235
+#, c-format
+msgid "property '%s' invalid or not supported"
+msgstr ""
+
+#: ../src/nm-ssh-service.c:252
+msgid "No VPN configuration options."
+msgstr ""
+
+#: ../src/nm-ssh-service.c:1010
+msgid "Could not find the ssh binary."
+msgstr ""
+
+#: ../src/nm-ssh-service.c:1035
+msgid "Could not find the sshpass binary."
+msgstr ""
+
+#: ../src/nm-ssh-service.c:1053
+#, fuzzy
+msgid "No password specified."
+msgstr "Vis adgangskoder"
+
+#: ../src/nm-ssh-service.c:1090
+msgid "Key authentication selected, but no key file specified."
+msgstr ""
+
+#: ../src/nm-ssh-service.c:1110
+msgid "Missing required SSH_AUTH_SOCK."
+msgstr ""
+
+#: ../src/nm-ssh-service.c:1124 ../src/nm-ssh-service.c:1584
+#, c-format
+msgid "Unknown authentication type: %s."
+msgstr ""
+
+#: ../src/nm-ssh-service.c:1194
+#, c-format
+msgid "Please set remote address."
+msgstr ""
+
+#: ../src/nm-ssh-service.c:1210
+#, c-format
+msgid "Invalid port number '%s'."
+msgstr ""
+
+#: ../src/nm-ssh-service.c:1229
+#, c-format
+msgid "Invalid TUN MTU size '%s'."
+msgstr ""
+
+#: ../src/nm-ssh-service.c:1248
+#, c-format
+msgid "Invalid TUN/TAP device number '%s'."
+msgstr ""
+
+#: ../src/nm-ssh-service.c:1267
+msgid "Missing required remote IP address."
+msgstr ""
+
+#: ../src/nm-ssh-service.c:1281
+msgid "Missing required local IP address."
+msgstr ""
+
+#: ../src/nm-ssh-service.c:1297
+msgid "Missing required netmask."
+msgstr ""
+
+#: ../src/nm-ssh-service.c:1317
+msgid "Missing required IPv6 remote IP address."
+msgstr ""
+
+#: ../src/nm-ssh-service.c:1331
+msgid "Missing required IPv6 local IP address."
+msgstr ""
+
+#: ../src/nm-ssh-service.c:1345
+msgid "Missing required IPv6 netmask."
+msgstr ""
+
+#: ../src/nm-ssh-service.c:1504 ../src/nm-ssh-service.c:1546
+msgid ""
+"Could not process the request because the VPN connection settings were "
+"invalid."
+msgstr ""
+
+#: ../src/nm-ssh-service.c:1708
+msgid "Don't quit when VPN connection terminates"
+msgstr ""
+
+#: ../src/nm-ssh-service.c:1709
+msgid "Enable verbose debug logging (may expose passwords)"
+msgstr ""
+
+#: ../src/nm-ssh-service.c:1725
+msgid "nm-ssh-service provides integrated SSH capability to NetworkManager."
+msgstr ""
+
+#~ msgid "_Domain:"
+#~ msgstr "_Domæne:"
+
+#~ msgid "Connect _anonymously"
+#~ msgstr "Forbind _anonymt"
+
+#~ msgid "Connect as _user:"
+#~ msgstr "Forbind som _bruger:"
+
+#~ msgid "_Remember password for this session"
+#~ msgstr "_Husk adgangskode for denne session"
+
+#~ msgid "_Save password in keyring"
+#~ msgstr "_Gem adgangskode i nøglering"
+
+#~ msgid "Certificate pass_word:"
+#~ msgstr "Ad_gangskode til certifikat:"
+
+#~ msgid "Certificate password:"
+#~ msgstr "Adgangskode til certifikat:"
+
+#~ msgid "Choose a Certificate Authority certificate..."
+#~ msgstr "Vælg et certifikat fra certifikatautoritet..."
+
+#~ msgid "Choose your personal certificate..."
+#~ msgstr "Vælg dit personlige certifikat..."
+
+#~ msgid "Choose your private key..."
+#~ msgstr "Vælg din private nøgle..."
+
+#~ msgid "Choose an SSH static key..."
+#~ msgstr "Vælg en statisk SSH-nøgle..."
+
+#~ msgid "None"
+#~ msgstr "Ingen"
+
+#~ msgid "PEM certificates (*.pem, *.crt, *.key, *.cer)"
+#~ msgstr "PEM-certifikater (*.pem, *.crt, *.key, *.cer)"
+
+#~ msgid "SSH Static Keys (*.key)"
+#~ msgstr "Statiske SSH-nøgler (*.key)"
+
+#~ msgid "Default"
+#~ msgstr "Standard"
+
+#~ msgid "MD-5"
+#~ msgstr "MD-5"
+
+#~ msgid "SHA-1"
+#~ msgstr "SHA-1"
+
+#~ msgid "Certificates (TLS)"
+#~ msgstr "Certifikater (TLS)"
+
+#~ msgid "Password with Certificates (TLS)"
+#~ msgstr "Adgangskode med certifikater (TLS)"
+
+#~ msgid "Static Key"
+#~ msgstr "Statisk nøgle"
+
+#~ msgid ""
+#~ "<i>If key direction is used, it must be the opposite of that used on the "
+#~ "VPN peer.  For example, if the peer uses '1', this connection must use "
+#~ "'0'.  If you are unsure what value to use, contact your system "
+#~ "administrator.</i>"
+#~ msgstr ""
+#~ "<i>Hvis nøgleretning anvendes, skal den være den modsatte af den "
+#~ "nøgleretning, som VPN-ligemanden bruger. Hvis ligemanden f.eks. bruger "
+#~ "\"1\", skal denne forbindelse bruge \"0\". Hvis du ikke er sikker på, "
+#~ "hvilken værdi du skal bruge, bør du kontakte din systemadministrator.</i>"
+
+#~ msgid "CA Certificate:"
+#~ msgstr "CA-certifikat:"
+
+#~ msgid "Cipher:"
+#~ msgstr "Chiffer:"
+
+#~ msgid "HMAC Authentication:"
+#~ msgstr "HMAC-godkendelse:"
+
+#~ msgid "Key Direction:"
+#~ msgstr "Nøgleretning:"
+
+#~ msgid "Private Key Password:"
+#~ msgstr "Adgangskode til privat nøgle:"
+
+#~ msgid "Private Key:"
+#~ msgstr "Privat nøgle:"
+
+#~ msgid "Security"
+#~ msgstr "Sikkerhed"
+
+#~ msgid "Static Key:"
+#~ msgstr "Statisk nøgle:"
+
+#~ msgid "Use L_ZO data compression"
+#~ msgstr "Anvend L_ZO-datakomprimering"
+
+#~ msgid "Use a _TCP connection"
+#~ msgstr "Anvend en _TCP-forbindelse"
+
+#~ msgid "Use additional TLS authentication"
+#~ msgstr "Anvend yderligere TLS-godkendelse"
+
+#~ msgid "User Certificate:"
+#~ msgstr "Brugercertifikat:"
+
+#~ msgid "User name:"
+#~ msgstr "Brugernavn:"
+
+#~ msgid "Add, Remove, and Edit VPN Connections"
+#~ msgstr "Tilføj, fjern og redigér VPN-forbindelser"

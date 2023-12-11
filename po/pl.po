@@ -1,0 +1,546 @@
+# -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+# Aviary.pl
+# Jeśli masz jakiekolwiek uwagi odnoszące się do tłumaczenia lub chcesz
+# pomóc w jego rozwijaniu i pielęgnowaniu, napisz do nas:
+# gnomepl@aviary.pl
+# -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+msgid ""
+msgstr ""
+"Project-Id-Version: network-manager-ssh\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-07-15 17:00+1000\n"
+"PO-Revision-Date: 2011-08-11 21:45+0200\n"
+"Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
+"Language-Team: Polish <gnomepl@aviary.pl>\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2;\n"
+"X-Poedit-Language: Polish\n"
+"X-Poedit-Country: Poland\n"
+
+#. Otherwise, we have no saved password, or the password flags indicated
+#. * that the password should never be saved.
+#.
+#: ../auth-dialog/main.c:141
+#, c-format
+msgid "You need to authenticate to access the Virtual Private Network '%s'."
+msgstr ""
+"Aby uzyskać dostęp do wirtualnej sieci prywatnej \"%s\", należy się "
+"uwierzytelnić."
+
+#: ../auth-dialog/main.c:150 ../auth-dialog/main.c:170
+msgid "Authenticate VPN"
+msgstr "Uwierzytelnianie VPN"
+
+#: ../auth-dialog/main.c:152 ../properties/nm-ssh-dialog.ui.h:27
+msgid "Password:"
+msgstr "Hasło:"
+
+#: ../auth-dialog/main.c:291
+#, c-format
+msgid ""
+"Couldn't find '%s' environment variable.\n"
+"\n"
+"Is ssh-agent running?"
+msgstr ""
+
+#: ../auth-dialog/vpn-password-dialog.c:95
+msgid "_Password:"
+msgstr "_Hasło:"
+
+#: ../auth-dialog/vpn-password-dialog.c:97
+msgid "_Secondary Password:"
+msgstr "Hasło _dodatkowe:"
+
+#: ../auth-dialog/vpn-password-dialog.c:240
+msgid "Sh_ow passwords"
+msgstr "Wyświ_etlanie haseł"
+
+#: ../properties/advanced-dialog.c:137
+msgid ""
+"You have chosen not to use 'root' as the remote username.\n"
+"\n"
+"Please make sure the user you specify is allowed to open tun/tap devices on "
+"the remote host."
+msgstr ""
+
+#: ../properties/nm-ssh.c:49
+msgid "SSH"
+msgstr "SSH"
+
+#: ../properties/nm-ssh.c:50
+msgid "Compatible with the SSH server."
+msgstr "Zgodny z serwerem SSH."
+
+#: ../properties/nm-ssh.c:457
+msgid "Saved"
+msgstr "Zapisane"
+
+#: ../properties/nm-ssh.c:464
+msgid "Always Ask"
+msgstr "Pytanie za każdym razem"
+
+#: ../properties/nm-ssh.c:620
+msgid "SSH Agent"
+msgstr ""
+
+#: ../properties/nm-ssh.c:633
+msgid "Password"
+msgstr "Hasło"
+
+#: ../properties/nm-ssh.c:646
+#, fuzzy
+msgid "Key Authentication"
+msgstr "Uwierzytelnianie TLS"
+
+#: ../properties/nm-ssh-dialog.ui.h:1
+msgid " "
+msgstr " "
+
+#: ../properties/nm-ssh-dialog.ui.h:2
+msgid "Not required"
+msgstr "Niewymagane"
+
+#: ../properties/nm-ssh-dialog.ui.h:3
+msgid "SSH Advanced Options"
+msgstr "Zaawansowane opcje SSH"
+
+#: ../properties/nm-ssh-dialog.ui.h:4
+#, fuzzy
+msgid "Use custom gateway port:"
+msgstr "Własny port bra_my:"
+
+#: ../properties/nm-ssh-dialog.ui.h:5
+#, fuzzy
+msgid "Use custom tunnel Maximum Transmission Unit (MTU):"
+msgstr "Użycie własnego M_TU tunelu:"
+
+#: ../properties/nm-ssh-dialog.ui.h:6
+msgid "Extra SSH options:"
+msgstr ""
+
+#: ../properties/nm-ssh-dialog.ui.h:7
+msgid "Remote device number:"
+msgstr ""
+
+#: ../properties/nm-ssh-dialog.ui.h:8
+#, fuzzy
+msgid "Use a TAP device"
+msgstr "Użycie urządzenia TA_P"
+
+#: ../properties/nm-ssh-dialog.ui.h:9
+#, fuzzy
+msgid "Remote username:"
+msgstr "Nazwa użytkownika pośrednika:"
+
+#: ../properties/nm-ssh-dialog.ui.h:10
+msgid "Do not replace default route"
+msgstr ""
+
+#: ../properties/nm-ssh-dialog.ui.h:11
+msgid "General"
+msgstr "Ogólne"
+
+#: ../properties/nm-ssh-dialog.ui.h:12
+msgid "<b>General</b>"
+msgstr "<b>Ogólne</b>"
+
+#: ../properties/nm-ssh-dialog.ui.h:13
+#, fuzzy
+msgid "Gateway:"
+msgstr "_Brama:"
+
+#: ../properties/nm-ssh-dialog.ui.h:14
+msgid "<b>Network Settings</b>"
+msgstr ""
+
+#: ../properties/nm-ssh-dialog.ui.h:15
+msgid "Remote IP Address:"
+msgstr "Zdalny adres IP:"
+
+#: ../properties/nm-ssh-dialog.ui.h:16
+msgid "Local IP Address:"
+msgstr "Lokalny adres IP:"
+
+#: ../properties/nm-ssh-dialog.ui.h:17
+msgid "Netmask:"
+msgstr ""
+
+#: ../properties/nm-ssh-dialog.ui.h:18
+msgid "<b>IPv6 Network Settings</b>"
+msgstr ""
+
+#: ../properties/nm-ssh-dialog.ui.h:19
+msgid "Use IPv6"
+msgstr ""
+
+#: ../properties/nm-ssh-dialog.ui.h:20
+#, fuzzy
+msgid "Remote IP Address (IPv6):"
+msgstr "Zdalny adres IP:"
+
+#: ../properties/nm-ssh-dialog.ui.h:21
+#, fuzzy
+msgid "Local IP Address (IPv6):"
+msgstr "Lokalny adres IP:"
+
+#: ../properties/nm-ssh-dialog.ui.h:22
+msgid "Prefix (IPv6):"
+msgstr ""
+
+#: ../properties/nm-ssh-dialog.ui.h:23
+#, fuzzy
+msgid "Advanced..."
+msgstr "Zaa_wansowane..."
+
+#: ../properties/nm-ssh-dialog.ui.h:24
+msgid "<b>Authentication</b>"
+msgstr "<b>Uwierzytelnianie</b>"
+
+#: ../properties/nm-ssh-dialog.ui.h:25
+msgid "Type:"
+msgstr "Typ:"
+
+#: ../properties/nm-ssh-dialog.ui.h:26
+#, fuzzy
+msgid "Select an authentication mode."
+msgstr "Uwierzytelnianie TLS"
+
+#: ../properties/nm-ssh-dialog.ui.h:28
+#, fuzzy
+msgid "Show Passwords"
+msgstr "Wyświetlanie haseł"
+
+#: ../properties/nm-ssh-dialog.ui.h:29
+#, fuzzy
+msgid "SSH Key File:"
+msgstr "Plik klucza:"
+
+#: ../src/nm-ssh-service.c:195
+#, c-format
+msgid "invalid address '%s'"
+msgstr "nieprawidłowy adres \"%s\""
+
+#: ../src/nm-ssh-service.c:207
+#, c-format
+msgid "invalid integer property '%s' or out of range [%d -> %d]"
+msgstr ""
+"nieprawidłowa własność liczby całkowitej \"%s\" lub jest poza zakresem [%d -"
+"> %d]"
+
+#: ../src/nm-ssh-service.c:217
+#, c-format
+msgid "invalid boolean property '%s' (not yes or no)"
+msgstr ""
+"nieprawidłowa własność zmiennej logicznej \"%s\" (nie wynosi \"yes\" lub \"no"
+"\")"
+
+#: ../src/nm-ssh-service.c:224
+#, c-format
+msgid "unhandled property '%s' type %s"
+msgstr "nieobsługiwana własność \"%s\" typu \"%s\""
+
+#: ../src/nm-ssh-service.c:235
+#, c-format
+msgid "property '%s' invalid or not supported"
+msgstr "własność \"%s\" jest nieprawidłowa lub nieobsługiwana"
+
+#: ../src/nm-ssh-service.c:252
+msgid "No VPN configuration options."
+msgstr "Brak opcji konfiguracji VPN."
+
+#: ../src/nm-ssh-service.c:1010
+msgid "Could not find the ssh binary."
+msgstr "Nie można odnaleźć pliku binarnego ssh."
+
+#: ../src/nm-ssh-service.c:1035
+#, fuzzy
+msgid "Could not find the sshpass binary."
+msgstr "Nie można odnaleźć pliku binarnego ssh."
+
+#: ../src/nm-ssh-service.c:1053
+#, fuzzy
+msgid "No password specified."
+msgstr "Wyświetlanie haseł"
+
+#: ../src/nm-ssh-service.c:1090
+msgid "Key authentication selected, but no key file specified."
+msgstr ""
+
+#: ../src/nm-ssh-service.c:1110
+msgid "Missing required SSH_AUTH_SOCK."
+msgstr ""
+
+#: ../src/nm-ssh-service.c:1124 ../src/nm-ssh-service.c:1584
+#, fuzzy, c-format
+msgid "Unknown authentication type: %s."
+msgstr "Nieznany typ połączenia \"%s\"."
+
+#: ../src/nm-ssh-service.c:1194
+#, c-format
+msgid "Please set remote address."
+msgstr ""
+
+#: ../src/nm-ssh-service.c:1210
+#, c-format
+msgid "Invalid port number '%s'."
+msgstr "Nieprawidłowy numer portu \"%s\"."
+
+#: ../src/nm-ssh-service.c:1229
+#, c-format
+msgid "Invalid TUN MTU size '%s'."
+msgstr "Nieprawidłowy rozmiar TUN MTU \"%s\"."
+
+#: ../src/nm-ssh-service.c:1248
+#, fuzzy, c-format
+msgid "Invalid TUN/TAP device number '%s'."
+msgstr "Nieprawidłowy numer portu \"%s\"."
+
+#: ../src/nm-ssh-service.c:1267
+#, fuzzy
+msgid "Missing required remote IP address."
+msgstr "Brak wymaganego zdalnego adresu IP dla trybu klucza statycznego."
+
+#: ../src/nm-ssh-service.c:1281
+#, fuzzy
+msgid "Missing required local IP address."
+msgstr "Brak wymaganego lokalnego adresu IP dla trybu klucza statycznego."
+
+#: ../src/nm-ssh-service.c:1297
+msgid "Missing required netmask."
+msgstr ""
+
+#: ../src/nm-ssh-service.c:1317
+#, fuzzy
+msgid "Missing required IPv6 remote IP address."
+msgstr "Brak wymaganego zdalnego adresu IP dla trybu klucza statycznego."
+
+#: ../src/nm-ssh-service.c:1331
+#, fuzzy
+msgid "Missing required IPv6 local IP address."
+msgstr "Brak wymaganego lokalnego adresu IP dla trybu klucza statycznego."
+
+#: ../src/nm-ssh-service.c:1345
+msgid "Missing required IPv6 netmask."
+msgstr ""
+
+#: ../src/nm-ssh-service.c:1504 ../src/nm-ssh-service.c:1546
+msgid ""
+"Could not process the request because the VPN connection settings were "
+"invalid."
+msgstr ""
+"Nie można przetworzyć żądania, ponieważ ustawienia połączenia VPN są "
+"nieprawidłowe."
+
+#: ../src/nm-ssh-service.c:1708
+msgid "Don't quit when VPN connection terminates"
+msgstr "Nie kończy działania, kiedy połączenie VPN jest kończone"
+
+#: ../src/nm-ssh-service.c:1709
+msgid "Enable verbose debug logging (may expose passwords)"
+msgstr "Włącza więcej komunikatów debugowania (może wyjawić hasła)"
+
+#: ../src/nm-ssh-service.c:1725
+#, fuzzy
+msgid "nm-ssh-service provides integrated SSH capability to NetworkManager."
+msgstr ""
+"nm-ssh-service dostarcza zintegrowaną możliwość nawiązywania połączeń SSH "
+"dla usługi NetworkManager."
+
+#~ msgid "Certificate pass_word:"
+#~ msgstr "Hasło _certyfikatu:"
+
+#~ msgid "Certificate password:"
+#~ msgstr "Hasło certyfikatu:"
+
+#~ msgid "Choose your personal certificate..."
+#~ msgstr "Wybierz certyfikat prywatny..."
+
+#~ msgid "Choose your private key..."
+#~ msgstr "Wybierz klucz prywatny..."
+
+#~ msgid "Not Required"
+#~ msgstr "Niewymagane"
+
+#~ msgid "Choose a Certificate Authority certificate..."
+#~ msgstr "Wybierz certyfikat CA..."
+
+#~ msgid "Choose an SSH static key..."
+#~ msgstr "Wybierz klucz statyczny SSH..."
+
+#~ msgid "None"
+#~ msgstr "Brak"
+
+#~ msgid "PEM or PKCS#12 certificates (*.pem, *.crt, *.key, *.cer, *.p12)"
+#~ msgstr "Certyfikaty PEM lub PKCS#12 (*.pem, *.crt, *.key, *.cer, *.p12)"
+
+#~ msgid "PEM certificates (*.pem, *.crt, *.key, *.cer)"
+#~ msgstr "Certyfikaty PEM (*.pem, *.crt, *.key, *.cer)"
+
+#~ msgid "SSH Static Keys (*.key)"
+#~ msgstr "Klucze statyczne SSH (*.key)"
+
+#~ msgid "Default"
+#~ msgstr "Domyślny"
+
+#~ msgid "RSA MD-4"
+#~ msgstr "RSA MD4"
+
+#~ msgid "MD-5"
+#~ msgstr "MD5"
+
+#~ msgid "SHA-1"
+#~ msgstr "SHA1"
+
+#~ msgid "SHA-224"
+#~ msgstr "SHA224"
+
+#~ msgid "SHA-256"
+#~ msgstr "SHA256"
+
+#~ msgid "SHA-384"
+#~ msgstr "SHA384"
+
+#~ msgid "SHA-512"
+#~ msgstr "SHA512"
+
+#~ msgid "RIPEMD-160"
+#~ msgstr "RIPEMD-160"
+
+#~ msgid "HTTP"
+#~ msgstr "HTTP"
+
+#~ msgid "SOCKS"
+#~ msgstr "SOCKS"
+
+#~ msgid "Certificates (TLS)"
+#~ msgstr "Certyfikaty (TLS)"
+
+#~ msgid "Password with Certificates (TLS)"
+#~ msgstr "Hasło z certyfikatami (TLS)"
+
+#~ msgid "Static Key"
+#~ msgstr "Klucz statyczny"
+
+#~ msgid ""
+#~ "<i>Connect only to servers whose certificate matches the given subject.\n"
+#~ "Example: /CN=myvpn.company.com</i>"
+#~ msgstr ""
+#~ "<i>Połączenie tylko z serwerami, których certyfikaty pasują do podanego "
+#~ "tematu.\n"
+#~ "Przykład: /CN=mójvpn.firma.pl</i>"
+
+#~ msgid ""
+#~ "<i>If key direction is used, it must be the opposite of that used on the "
+#~ "VPN peer.  For example, if the peer uses '1', this connection must use "
+#~ "'0'.  If you are unsure what value to use, contact your system "
+#~ "administrator.</i>"
+#~ msgstr ""
+#~ "<i>Jeśli zostanie użyty kierunek klucza, to musi być przeciwny kierunkowi "
+#~ "użytemu na serwerze VPN. Przykładowo, jeśli serwer używa \"1\", te "
+#~ "połączenie musi użyć \"0\". W wypadku braku pewności jakiej wartości "
+#~ "użyć, proszę skontaktować się z administratorem systemu.</i>"
+
+#~ msgid ""
+#~ "<i>Select this option if your organization requires the use of a proxy "
+#~ "server to access the Internet.</i>"
+#~ msgstr ""
+#~ "<i>Należy wybrać tę opcję, jeśli organizacja wymaga użycia serwera "
+#~ "pośrednika do dostępu do Internetu.</i>"
+
+#~ msgid "CA Certificate:"
+#~ msgstr "Certyfikat CA:"
+
+#~ msgid "Cipher:"
+#~ msgstr "Szyfr:"
+
+#~ msgid "HMAC Authentication:"
+#~ msgstr "Uwierzytelnianie HMAC:"
+
+#~ msgid "Key Direction:"
+#~ msgstr "Kierunek klucza:"
+
+#~ msgid "Port:"
+#~ msgstr "Port:"
+
+#~ msgid "Private Key Password:"
+#~ msgstr "Hasło klucza prywatnego:"
+
+#~ msgid "Private Key:"
+#~ msgstr "Klucz prywatny:"
+
+#~ msgid "Proxies"
+#~ msgstr "Pośredniki"
+
+#~ msgid "Proxy Password:"
+#~ msgstr "Hasło pośrednika:"
+
+#~ msgid "Proxy Type:"
+#~ msgstr "Typ pośrednika:"
+
+#~ msgid "Restrict tunnel TCP Maximum Segment Size (MSS)"
+#~ msgstr "Ograniczenie maksymalnego rozmiaru segmentu (MSS) tunelu TCP"
+
+#~ msgid "Retry indefinitely when errors occur"
+#~ msgstr "Powtarzanie w nieskończoność, kiedy wystąpi błąd"
+
+#~ msgid "Security"
+#~ msgstr "Zabezpieczenia"
+
+#~ msgid "Server Address:"
+#~ msgstr "Adres serwera:"
+
+#~ msgid "Show password"
+#~ msgstr "Wyświetlanie hasła"
+
+#~ msgid "Static Key:"
+#~ msgstr "Klucz statyczny:"
+
+#~ msgid "Subject Match:"
+#~ msgstr "Temat dopasowania:"
+
+#~ msgid "Use L_ZO data compression"
+#~ msgstr "Użycie kompresji L_ZO"
+
+#~ msgid "Use a _TCP connection"
+#~ msgstr "Użycie połączenia _TCP"
+
+#~ msgid "Use additional TLS authentication"
+#~ msgstr "Użycie dodatkowego uwierzytelniania TLS"
+
+#~ msgid "Use custom UDP _fragment size:"
+#~ msgstr "Użycie własnego rozmiaru f_ragmentu UDP:"
+
+#~ msgid "Use custom _renegotiation interval:"
+#~ msgstr "Użycie własnego czasu między ponownymi _negocjacjami:"
+
+#~ msgid "User Certificate:"
+#~ msgstr "Certyfikat użytkownika:"
+
+#~ msgid "User name:"
+#~ msgstr "Nazwa użytkownika:"
+
+#~ msgid "No VPN secrets!"
+#~ msgstr "Brak haseł VPN."
+
+#~ msgid "Invalid HMAC auth."
+#~ msgstr "Nieprawidłowe uwierzytelnienie HMAC."
+
+#~ msgid "Invalid connection type."
+#~ msgstr "Nieprawidłowy typ połączenia."
+
+#~ msgid "Invalid proxy type '%s'."
+#~ msgstr "Nieprawidłowy typ pośrednika \"%s\"."
+
+#~ msgid "Invalid reneg seconds '%s'."
+#~ msgstr "Nieprawidłowe sekundy renegocjacji \"%s\"."
+
+#~ msgid "Invalid fragment size '%s'."
+#~ msgstr "Nieprawidłowy rozmiar fragmentu \"%s\"."
+
+#~ msgid "Could not process the request because no username was provided."
+#~ msgstr ""
+#~ "Nie można przetworzyć żądania, ponieważ nie podano nazwy użytkownika."
